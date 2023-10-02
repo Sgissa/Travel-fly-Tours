@@ -1,0 +1,39 @@
+.hero-container{
+    
+    width: 76%;
+    height: 200px;
+    // background-color: aqua;
+    background-image: linear-gradient(to right, rgba(   0, 0, 0, 0.5),  rgba( 0, 0, 0, 0.5)), url(/images/tours-pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+    .hero-text{
+        width: 20%;
+        height: 60px;
+        // background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .hero-title{
+            font-family: proxi;
+            font-size: 60px;
+            color: white;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .hero-container {
+      
+        .hero-text{
+            // background-color: aquamarine;
+            width: 256px;
+        }
+    }
+  }

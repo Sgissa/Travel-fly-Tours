@@ -1,0 +1,538 @@
+.promo-container{
+// background-color: antiquewhite;
+width: 818px;
+min-height: 304px;
+margin: 0 auto;
+margin-top: 49px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+    .promo{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours1.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+            color: white;
+        }
+
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo2{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours2.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo3{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours3.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo4{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours4.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo5{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours5.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo6{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours6.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo7{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours7.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo8{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours8.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+            
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+    .promo9{
+        // background-color: aqua;
+        background-image: url(/images/promo-tours9.png);
+        width: 236px;
+        height: 304px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        .promo-title{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 60px;
+            font-family: proxi;
+            color: white;
+        }
+
+        .promo-ltitle{
+            max-width: 210px;
+            height: 60px;
+            // background-color: brown;
+            margin-top: 56px;
+            font-size: 50px;
+            font-family: proxi;
+        }
+
+        .promo-price{
+            max-width: 153px;
+            height: 30px;
+            // background-color: cadetblue;
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+        }
+
+        .learn-more{
+            margin-top: 58px;
+          @include site-button;
+          width: 133px;
+          height: 40px;
+          .learn-text{
+            width: 100px;
+            height: 17px;
+            // background-color: antiquewhite;
+            font-size: 15px;
+            font-family: Gill Sans;
+            text-decoration: none;
+            color: white;
+
+        }
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .promo-container {
+    //   background-color: aquamarine;
+      width: 527px;
+
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .promo-container {
+    //   background-color: aquamarine;
+      width: 236px;
+
+    }
+  }
+
+
+

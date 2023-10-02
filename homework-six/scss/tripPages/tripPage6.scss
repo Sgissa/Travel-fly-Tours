@@ -1,0 +1,236 @@
+.trip-image6{
+    // background-color: antiquewhite;
+    background-image: url(/images/egypt.png);
+    max-width: 981px;
+    height: 413px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+
+    .topText{
+        width: 733px;
+        height: 122px;
+        // background-color: aquamarine;
+        padding-left: 30px;
+        padding-top: 43px;
+
+        .ttext{
+            font-family: proxi;
+            font-size: 80px;
+            color: white;
+        }
+    }
+
+
+    .bottomText{
+        width: 380px;
+        height: 30px;
+        // background-color: blueviolet;
+        margin-top: 261px;
+        margin-left: 600px;
+
+        .btext{
+            font-family: proxi;
+            font-size: 30px;
+            color: white;
+        }
+    }
+}
+
+.trip-pics6{
+    max-width: 978px;
+    height: 347px;
+    // background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .pic-holder{
+        width: 298px;
+        height: 347px;
+        // background-color: brown;
+        background-image: url(/images/egypt-tour1.png);
+    }
+
+    .pic-holder2{
+        width: 298px;
+        height: 347px;
+        // background-color: brown;
+        background-image: url(/images/egypt-tour-02.png);
+    }
+
+    .pic-holder3{
+        width: 298px;
+        height: 347px;
+        // background-color: brown;
+        background-image: url(/images/egypt-tour-03.png);
+    }
+}
+
+.Trip-info6{
+    height: 776px;
+    width: 980px;
+    // background-color: aqua;
+    margin: 0 auto;
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    .day-info{
+        height: 195px;
+        max-width: 980px;
+        // background-color: bisque;
+
+        .day-title{
+            width: 243px;
+            height: 60px;
+            // background-color: antiquewhite;
+            font-size: 60px;
+            font-family: proxi;
+            .border{
+                width: 100px;
+                margin-top: -20px;
+                border-bottom: 3px solid black;
+            }
+        }
+
+        .day-text{
+            width: 980px;
+            height: 96px;
+            // background-color: blueviolet;
+            margin-top: 39px;
+            .dtext{
+                font-family: Gill Sans;
+                font-size: 16px;
+            }
+
+        }
+    }
+
+}
+
+.button-container{
+    @include site-button;
+    width: 150px;
+    height: 40px;
+    // background-color: #79ADDC;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    // margin-top: 20px;
+        .button-text{
+            // width: 86px;
+            // background-color: black;
+            padding-left: 11px;
+            color: white;
+            font-family: Gill Sans;
+            font-size: 15px;
+        }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .trip-image6 {
+    //   background-color: lightblue;
+      max-width: 80%;
+
+      .topText{
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .bottomText{
+        max-width: 380px;
+        margin: 0 auto;
+        margin-top: 261px;
+        
+      }
+
+    }
+  }
+
+    @media only screen and (max-width: 800px) {
+    .trip-pics6 {
+    //   background-color: lightblue;
+        width: 298px;
+        min-height: 1151px;
+        flex-direction: column;
+        
+      .pic-holder{
+        background-color: blanchedalmond;
+        // margin-bottom: 42px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .Trip-info6 {
+        // background-color: lightblue;
+        width: 600px;
+    
+        margin-bottom: 100px;
+        min-height: 900px;
+        padding-bottom: 30px;
+        // margin: 0 auto;
+        // justify-content: space-between;
+        .day-info{
+            max-width: 70%;
+            // background-color: cadetblue;
+           margin-left: 10%;
+        //    margin-bottom: 40px;
+            .day-title{
+                max-width: 50%;
+                // background-color: aquamarine;
+            }
+
+            .day-text{
+                max-width: 100%;
+                height: 200px;
+                // margin-bottom: 30px;
+                // background-color: aqua;
+            }
+        }
+
+        .day-info2{
+            max-width: 70%;
+            // background-color: cadetblue;
+           margin-left: 10%;
+        //    margin-top: -100px;
+        position: relative;
+            .day-title{
+                max-width: 50%;
+                // background-color: aquamarine;
+            }
+
+            .day-text{
+                max-width: 100%;
+                height: 200px;
+                // margin-bottom: 30px;
+                // background-color: aqua;
+            }
+        }
+
+
+        .day-info3{
+            max-width: 70%;
+            // background-color: cadetblue;
+           margin-left: 10%;
+            // position: absolute;
+            .day-title{
+                max-width: 50%;
+                // background-color: aquamarine;
+            }
+
+            .day-text{
+                max-width: 100%;
+                height: 200px;
+                // margin-bottom: 30px;
+                // background-color: aqua;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,10 @@
+.promo-container {
+  background-color: antiquewhite;
+  width: 818px;
+  min-height: 304px;
+}
+.promo-container .promo {
+  background-color: aqua;
+  width: 236px;
+  height: 304px;
+}
